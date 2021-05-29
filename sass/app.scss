@@ -10,6 +10,9 @@ $white: #fff;
 @import 'nav';
 @import 'hero';
 @import 'home';
+@import 'contact';
+@import 'about';
+@import 'services';
 
 
 
@@ -82,7 +85,18 @@ footer {
   }
 }
 
-// Mobile typography/footer styles
+.page-header {
+  background-color: $navy-blue;
+  height: 120px;
+  padding: 0 40px;
+  h1 {
+    color: $white;
+    line-height: 120px;
+    margin: 0;
+  }
+}
+
+// Mobile styles
 @media (max-width: 767px) {
   h1 {
     font-size: 36px;
@@ -93,6 +107,13 @@ footer {
   footer {
     p {
       margin-left: 20px;
+    }
+  }
+  .page-header {
+    height: 90px;
+    padding: 0 20px;
+    h1 {
+      line-height: 90px;
     }
   }
 }

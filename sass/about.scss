@@ -1,0 +1,16 @@
+.about-content {
+  padding: 60px 44px 180px 44px;
+  p {
+    font-weight: 400;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-content {
+    padding: 36px 20px 80px 20px;
+    p {
+      font-size: 20px;
+    }
+  }
+}

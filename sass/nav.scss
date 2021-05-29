@@ -112,6 +112,12 @@ nav {
  }
  }
 
+ @media (max-width: 450px) {
+   nav a.home img {
+    padding-left: 20px;
+   }
+ }
+
 body {
   animation: bugfix infinite 1s;
   -webkit-animation: bugfix infinite 1s;

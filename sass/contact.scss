@@ -1,0 +1,111 @@
+// Contact section
+.contact {
+  background-image: url('../img/contact-background.png');
+  background-size: cover;
+  padding: 100px 20px 80px 20px;
+  h2 {
+    margin-bottom: 0;
+  }
+  form {
+    text-align: left;
+    width: 96%;
+    max-width: 728px;
+    margin: 0 auto;
+    input, textarea {
+      width: 100%;
+      border: 2px solid $navy-blue;
+    }
+    input {
+      height: 62px;
+    }
+    textarea {
+      height: 300px;
+    }
+    label {
+      font-family: 'Palanquin', sans-serif;
+      font-weight: 400;
+      color: $dark-gray;
+      font-size: 30px;
+      display: block;
+      margin-top: 42px;
+    }
+    .send-button {
+      margin-top: 42px;
+      width: 375px;
+      height: 60px;
+      line-height: 55px;
+      border: 3px solid $navy-blue;
+      color: $navy-blue;
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
+      font-size: 25px;
+      background: transparent;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .contact {
+    padding-top: 22px;
+    form {
+      label {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .contact {
+    form {
+      .send-button {
+        width: 100%;
+      }
+    }
+  }
+}
+// End contact section
+
+
+// Contact page form styles
+.text-container {
+ padding-left: 40px;
+ margin-top: 60px;
+ h2 {
+   margin: 0;
+ }
+}
+
+.contact-page-contact {
+  background-image: url(../img/light-background.png);
+  background-size: cover;
+  padding-top: 64px;
+  padding-bottom: 120px;
+  form {
+    padding-left: 40px;
+    margin-left: 0;
+    .send-button {
+      color: $dark-gray;
+      background-color: $light-blue;
+      border: 1px solid $light-blue;
+      text-align: center;
+    }
+  }
+}
+// End contact page form styles
+
+@media (max-width: 850px) {
+  .text-container  {
+    padding: 0 20px;
+    margin-top: 40px;
+  }
+  .contact-page-contact {
+    padding-top: 0;
+    padding-bottom: 70px;
+    padding-left: 5px;
+    form {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+}
