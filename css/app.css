@@ -194,7 +194,7 @@ input[type=checkbox]:checked ~ #overlay-button span {
     font-weight: 700;
     font-size: 25px; }
   .services .image-container {
-    height: 130px; }
+    height: 140px; }
     .services .image-container img {
       max-width: 120px; }
 
@@ -312,7 +312,7 @@ input[type=checkbox]:checked ~ #overlay-button span {
     min-height: 160px;
     width: 100%; }
     .services-content .image-container img {
-      width: 50%;
+      width: 45%;
       min-width: 100px; }
 
 @media (max-width: 1420px) {
