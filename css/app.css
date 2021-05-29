@@ -168,6 +168,10 @@ input[type=checkbox]:checked ~ #overlay-button span {
     .hero .hero-content button {
       margin-top: 50px; }
 
+@media (max-width: 1100px) {
+  .hero .hero-content {
+    padding-top: 10vh;
+    padding-bottom: 10vh; } }
 @media (max-width: 767px) {
   .hero {
     background-position: center; }
@@ -176,7 +180,7 @@ input[type=checkbox]:checked ~ #overlay-button span {
 .services {
   padding: 0px 32px 60px 32px; }
   .services h2 {
-    margin-top: 0; }
+    margin-top: 80px; }
   .services .row {
     margin-top: 52px; }
     .services .row p {
