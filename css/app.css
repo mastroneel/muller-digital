@@ -379,12 +379,14 @@ p {
   font-family: 'Palanquin', sans-serif;
   font-size: 16px; }
 
-button {
+.button {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 25px;
+  display: block;
   width: 297px;
   height: 60px;
+  line-height: 60px;
   color: #282828;
   background-color: #6CA6C1;
   border: 1px solid #6CA6C1;

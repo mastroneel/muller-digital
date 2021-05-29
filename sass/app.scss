@@ -61,12 +61,14 @@ p {
   font-size: 16px;
 }
 
-button {
+.button {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 25px;
+  display: block;
   width: 297px;
   height: 60px;
+  line-height: 60px;
   color: $dark-gray;
   background-color: $light-blue;
   border: 1px solid $light-blue;
