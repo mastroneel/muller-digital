@@ -1,0 +1,125 @@
+// Services section
+.services {
+  padding: 0px 32px 60px 32px;
+  h2 {
+    margin-top: 0;
+  }
+  .row {
+    margin-top: 52px;
+    p {
+      font-weight: 700;
+    }
+  }
+  a {
+    display: block;
+    margin: 0 auto;
+    margin-top: 54px;
+    width: 345px;
+    height: 55px;
+    line-height: 55px;
+    border: 3px solid $navy-blue;
+    color: $navy-blue;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+  }
+  .image-container {
+    height: 130px;
+    img {
+      //width: 100%;
+      max-width: 120px;
+    }
+  }
+}
+
+@media (max-width: 1023px) {
+  .services {
+    .image-container {
+      margin-top: 60px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .services {
+    padding: 0px 20px 60px 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .services {
+    a {
+      width: 280px;
+    }
+  }
+}
+// End services section
+
+
+// Contact section
+.contact {
+  background-image: url('../img/contact-background.png');
+  background-size: cover;
+  padding: 100px 20px 80px 20px;
+  h2 {
+    margin-bottom: 0;
+  }
+  form {
+    text-align: left;
+    width: 96%;
+    max-width: 728px;
+    margin: 0 auto;
+    input, textarea {
+      width: 100%;
+      border: 2px solid $navy-blue;
+    }
+    input {
+      height: 62px;
+    }
+    textarea {
+      height: 300px;
+    }
+    label {
+      font-family: 'Palanquin', sans-serif;
+      font-weight: 400;
+      color: $dark-gray;
+      font-size: 30px;
+      display: block;
+      margin-top: 42px;
+    }
+    .send-button {
+      margin-top: 42px;
+      width: 375px;
+      height: 60px;
+      line-height: 55px;
+      border: 3px solid $navy-blue;
+      color: $navy-blue;
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
+      font-size: 25px;
+      background: transparent;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .contact {
+    padding-top: 22px;
+    form {
+      label {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .contact {
+    form {
+      .send-button {
+        width: 100%;
+      }
+    }
+  }
+}
+// End contact section

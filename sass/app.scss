@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;600&family=Lato:wght@400;700;900&family=Palanquin:wght@100;400;700&display=swap');
+
+// Colors
+$dark-gray: #282828;
+$navy-blue: #00245D;
+$light-blue: #6CA6C1;
+$yellow: #FFE66D;
+$white: #fff;
+
+@import 'nav';
+@import 'hero';
+@import 'home';
+
+
+
+
+// General styles
+
+body {
+  font-family: 'Palanquin', sans-serif;
+  color: $dark-gray;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+// Desktop typography
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 35px;
+}
+
+h3 {
+  font-family: 'Palanquin', sans-serif;
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Palanquin', sans-serif;
+  font-size: 16px;
+}
+
+button {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  width: 297px;
+  height: 60px;
+  color: $dark-gray;
+  background-color: $light-blue;
+  border: 1px solid $light-blue;
+  text-align: center;
+}
+
+footer {
+  background-color: $navy-blue;
+  height: 80px;
+  line-height: 80px;
+  p {
+    color: $white;
+    font-weight: 400;
+    margin-left: 85px;
+    margin-top: 0;
+  }
+}
+
+// Mobile typography/footer styles
+@media (max-width: 767px) {
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 27px;
+  }
+  footer {
+    p {
+      margin-left: 20px;
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  button {
+    width: 290px;
+  }
+}

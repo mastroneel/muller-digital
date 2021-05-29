@@ -1,0 +1,25 @@
+.hero {
+  min-height: 100vh;
+  background-image: url('../img/header-background.png');
+  background-size: cover;
+  .hero-content {
+    padding-top: 20vh;
+    margin-left: 84px;
+    h1 {
+      color: $white;
+    }
+    button {
+      margin-top: 50px;
+    }
+  }
+}
+
+
+@media (max-width: 767px) {
+  .hero {
+    background-position: center;
+    .hero-content {
+      margin-left: 20px;
+    }
+  }
+}
