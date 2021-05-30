@@ -32,3 +32,15 @@
     }
   }
 }
+
+@media (max-width: 850px) and (max-height: 450px) {
+  .hero {
+    padding-bottom: 40px;
+    h1 {
+      font-size: 36px;
+    }
+    .hero-content {
+      margin-left: 40px;
+    }
+  }
+}

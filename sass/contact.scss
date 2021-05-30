@@ -14,6 +14,10 @@
     input, textarea {
       width: 100%;
       border: 2px solid $navy-blue;
+      font-family: 'Palanquin', sans-serif;
+      font-weight: 400;
+      color: #282828;
+      font-size: 16px;
     }
     input {
       height: 62px;
@@ -40,6 +44,12 @@
       font-weight: 700;
       font-size: 25px;
       background: transparent;
+      &:hover, &:focus {
+        background-color: $navy-blue;
+        color: $white;
+        transition: 0.2s;
+        cursor: pointer;
+      }
     }
   }
 }
@@ -89,6 +99,7 @@
       background-color: $light-blue;
       border: 1px solid $light-blue;
       text-align: center;
+      transition: 0.2s;
     }
   }
 }
@@ -106,6 +117,45 @@
     form {
       padding-left: 20px;
       padding-right: 20px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .contact {
+    form {
+      label {
+        margin-top: 20px;
+      }
+      input {
+        height: 50px;
+      }
+      textarea {
+        height: 250px;
+      }
+      input, textarea {
+        width: 99%;
+      }
+    }
+  }
+}
+
+@media (max-width: 850px) and (max-height: 450px) {
+  .contact {
+    padding-top: 40px;
+    form {
+      label {
+        margin-top: 20px;
+      }
+      input {
+        height: 50px;
+      }
+      textarea {
+        height: 250px;
+      }
+      input, textarea {
+        width: 99%;
+      }
     }
   }
 }
